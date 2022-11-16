@@ -10,7 +10,7 @@ public class SpringBootCrudApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootCrudApplication.class, args);
 
-		//setup redis client modi
+		//setup redis client modifi
 		Redis.initializeSettings("127.0.0.1",6379, null, 5000, 5000);
 	}
 
