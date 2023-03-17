@@ -19,7 +19,7 @@ public class UserServiceImpl implements UserService
     }
 
     public User add(User user) {
-
+        //comment
         BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
         String password = user.getPassword();
         String encodedPassword = passwordEncoder.encode(password);
